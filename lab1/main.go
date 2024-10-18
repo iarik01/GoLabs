@@ -18,17 +18,17 @@ func main() {
 
 	switch choice {
 	case 1:
-		ShowCurrentTimeTask1() // Вызов функции из task1.go
+		ShowCurrentTimeTask1() // task1.go
 	case 2:
-		ShowVariablesTask2() // Вызов функции из task2.go
+		ShowVariablesTask2() // task2.go
 	case 3:
-		ShortVariablesTask3() // Вызов функции из task3.go
+		ShortVariablesTask3() // task3.go
 	case 4:
-		CalculateTask4() // Вызов функции из task4.go
+		CalculateTask4() // task4.go
 	case 5:
-		CalculateTask5() // Вызов функции из task5.go
+		CalculateTask5() // task5.go
 	case 6:
-		CalculateAverageTask6() // Вызов функции из task6.go
+		CalculateAverageTask6() //  task6.go
 	default:
 		fmt.Println("Неверный выбор!")
 	}
